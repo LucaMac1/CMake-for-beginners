@@ -5,7 +5,7 @@ $ g++ -v (if it is not installed, sudo apt install g++)
 
 create a .cpp file \
 $ touch main.cpp \
-$ /path/to/folder/ g++ main.cpp -o calculator
+/path/to/folder/$  g++ main.cpp -o calculator
 
 Let's create different files for different functions
 
