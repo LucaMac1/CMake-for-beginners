@@ -4,7 +4,7 @@
 #include "division.h"
 #include "print_result.h"
 
-main(){
+int main(){
 
 float first_no, second_no, result_add, result_div;
 
@@ -20,6 +20,6 @@ print_result("Addition", result_add);
 print_result("Division", result_div);
 //std::cout<< "Addition result:\t"<< result_add<< "\nDivision result:\t"<< result_div<< "\n";
 
-return 0;
+return EXIT_SUCCESS;
 
 }
