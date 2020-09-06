@@ -1,4 +1,5 @@
 #include <gtk/gtk.h>
+#include <iostream>
 
 void activate(GtkApplication *app, gpointer user_data){
 	GtkWidget *window;
@@ -13,5 +14,5 @@ main(int argc, char **argv){
 	g_signal_connect(app, "activate", G_CALLBACK(activate), NULL);
 	g_application_run(G_APPLICATION(app), argc, argv);
 	g_object_unref(app);
-	return 0;
+	return EXIT_SUCCESS;
 }
