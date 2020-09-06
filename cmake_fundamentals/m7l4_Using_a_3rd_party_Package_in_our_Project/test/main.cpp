@@ -12,6 +12,5 @@ int main(){
 
     std::cout<<"Addition result:\t"<<result_add<<"\n"<<"Division result:\t"<<result_div<<"\n";
 
-
     return EXIT_SUCCESS;
 }
